@@ -1,0 +1,74 @@
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+04:14:53 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+17:27:54 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+00:14:47 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+23:45:50 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+02:18:49 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+03:16:39 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+16:15:01 - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1024:11)
+    at _exceptionWithHostPort (util.js:1046:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1182:14)
+WARNING: NODE_APP_INSTANCE value of '0' did not match any instance config file names.
+WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
+5:01:21 PM - [31merror[39m: Error initializing task consumer:  Error: connect ECONNREFUSED 127.0.0.1:5672
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1198:14)

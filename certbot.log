@@ -1,0 +1,28 @@
+Traceback (most recent call last):
+  File "/usr/bin/certbot", line 11, in <module>
+    load_entry_point('certbot==0.10.2', 'console_scripts', 'certbot')()
+  File "/usr/lib/python2.7/dist-packages/certbot/main.py", line 828, in main
+    args = cli.prepare_and_parse_args(plugins, cli_args)
+  File "/usr/lib/python2.7/dist-packages/certbot/cli.py", line 1057, in prepare_and_parse_args
+    return helpful.parse_args()
+  File "/usr/lib/python2.7/dist-packages/certbot/cli.py", line 517, in parse_args
+    parsed_args = self.parser.parse_args(self.args)
+  File "/usr/lib/python2.7/dist-packages/configargparse.py", line 402, in parse_args
+    env_vars = env_vars)
+  File "/usr/lib/python2.7/dist-packages/configargparse.py", line 556, in parse_known_args
+    self, args=args, namespace=namespace)
+  File "/usr/lib/python2.7/argparse.py", line 1733, in parse_known_args
+    namespace, args = self._parse_known_args(args, namespace)
+  File "/usr/lib/python2.7/argparse.py", line 1939, in _parse_known_args
+    start_index = consume_optional(start_index)
+  File "/usr/lib/python2.7/argparse.py", line 1879, in consume_optional
+    take_action(action, args, option_string)
+  File "/usr/lib/python2.7/argparse.py", line 1807, in take_action
+    action(self, namespace, argument_values, option_string)
+  File "/usr/lib/python2.7/dist-packages/certbot/cli.py", line 1175, in __call__
+    add_domains(namespace, domain)
+  File "/usr/lib/python2.7/dist-packages/certbot/cli.py", line 1194, in add_domains
+    domain = util.enforce_domain_sanity(domain.strip())
+  File "/usr/lib/python2.7/dist-packages/certbot/util.py", line 473, in enforce_domain_sanity
+    "bare IP address.".format(domain))
+ConfigurationError: Requested name 45.79.184.236 is an IP address. The Let's Encrypt certificate authority will not issue certificates for a bare IP address.

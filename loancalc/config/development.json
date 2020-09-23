@@ -1,0 +1,42 @@
+{
+    "server": {
+        "port": 3000,
+        "forceSSL": false,
+        "useCookieAuth": true,
+        "enableGraphQLGUI": true,
+        "enableDebugController": true
+    },
+
+    "facebook": {
+        "appId": "488293168195976",
+        "appSecret": "355a86b735070bc51af01ec20b5d8a3a"
+    },
+
+    "mailchimp": {
+        "clientId": "430396003043",
+        "clientSecret": "bd526f65d3b0710ca32b674ecddc8e89cbab2c5421e71fbc18"
+    },
+
+    "graphiql": {
+        "loginEmail": "adolph.celestin@gmail.com",
+        "loginPassword": "awesomepassword"
+    },
+    
+    "db": {
+        "user": "dev",
+        "password": "development",
+        "host": "localhost",
+        "port": 5432,
+        "name": "loancalc"
+    },
+
+    "webpack": {
+        "calculator": {
+            "file": "../lcalc-app/build/webpack.dev.conf.js"
+        },
+
+        "dashboard": {
+            "file": "../lcalc-dash/build/webpack.dev.conf.js"
+        }
+    }
+}

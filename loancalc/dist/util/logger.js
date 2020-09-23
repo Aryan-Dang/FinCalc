@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const Winston=require("winston");exports.default=new Winston.Logger({transports:[new Winston.transports.Console({timestamp:()=>new Date().toLocaleTimeString(),colorize:!0,level:"production"===process.env.NODE_ENV?"info":"silly"})]});

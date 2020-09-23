@@ -1,0 +1,413 @@
+2017-09-08 15:41:57: Stopping app:lcalc-main id:0
+2017-09-08 15:41:57: Stopping app:lcalc-worker id:1
+2017-09-08 15:41:57: App [lcalc-main] with id [0] and pid [22303], exited with code [0] via signal [SIGINT]
+2017-09-08 15:41:57: App [lcalc-worker] with id [1] and pid [22308], exited with code [0] via signal [SIGINT]
+2017-09-08 15:41:57: pid=22303 msg=process killed
+2017-09-08 15:41:57: pid=22308 msg=process killed
+2017-09-08 15:42:00: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 15:42:00: App name:lcalc-main id:0 online
+2017-09-08 15:42:00: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 15:42:00: App name:lcalc-worker id:1 online
+2017-09-08 16:08:14: Stopping app:lcalc-main id:0
+2017-09-08 16:08:14: Stopping app:lcalc-worker id:1
+2017-09-08 16:08:14: App [lcalc-main] with id [0] and pid [22603], exited with code [0] via signal [SIGINT]
+2017-09-08 16:08:14: App [lcalc-worker] with id [1] and pid [22608], exited with code [0] via signal [SIGINT]
+2017-09-08 16:08:14: pid=22603 msg=process killed
+2017-09-08 16:08:14: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 16:08:14: App name:lcalc-main id:0 online
+2017-09-08 16:08:14: pid=22608 msg=process killed
+2017-09-08 16:08:14: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 16:08:14: App name:lcalc-worker id:1 online
+2017-09-08 17:07:17: Stopping app:lcalc-main id:0
+2017-09-08 17:07:17: Stopping app:lcalc-worker id:1
+2017-09-08 17:07:17: App [lcalc-worker] with id [1] and pid [23492], exited with code [0] via signal [SIGINT]
+2017-09-08 17:07:17: App [lcalc-main] with id [0] and pid [23487], exited with code [0] via signal [SIGINT]
+2017-09-08 17:07:17: pid=23487 msg=process killed
+2017-09-08 17:07:17: pid=23492 msg=process killed
+2017-09-08 17:07:20: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 17:07:20: App name:lcalc-main id:0 online
+2017-09-08 17:07:20: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 17:07:20: App name:lcalc-worker id:1 online
+2017-09-08 18:44:37: Stopping app:lcalc-main id:0
+2017-09-08 18:44:37: Stopping app:lcalc-worker id:1
+2017-09-08 18:44:37: App [lcalc-worker] with id [1] and pid [25126], exited with code [0] via signal [SIGINT]
+2017-09-08 18:44:37: App [lcalc-main] with id [0] and pid [25121], exited with code [0] via signal [SIGINT]
+2017-09-08 18:44:37: pid=25121 msg=process killed
+2017-09-08 18:44:37: pid=25126 msg=process killed
+2017-09-08 18:44:40: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 18:44:40: App name:lcalc-main id:0 online
+2017-09-08 18:44:40: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 18:44:40: App name:lcalc-worker id:1 online
+2017-09-08 19:22:58: Stopping app:lcalc-main id:0
+2017-09-08 19:22:58: Stopping app:lcalc-worker id:1
+2017-09-08 19:22:58: App [lcalc-main] with id [0] and pid [27106], exited with code [0] via signal [SIGINT]
+2017-09-08 19:22:58: App [lcalc-worker] with id [1] and pid [27111], exited with code [0] via signal [SIGINT]
+2017-09-08 19:22:59: pid=27106 msg=process killed
+2017-09-08 19:22:59: pid=27111 msg=process killed
+2017-09-08 19:23:01: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 19:23:01: App name:lcalc-main id:0 online
+2017-09-08 19:23:01: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 19:23:01: App name:lcalc-worker id:1 online
+2017-09-08 19:50:47: Stopping app:lcalc-main id:0
+2017-09-08 19:50:47: Stopping app:lcalc-worker id:1
+2017-09-08 19:50:47: App [lcalc-main] with id [0] and pid [27978], exited with code [0] via signal [SIGINT]
+2017-09-08 19:50:47: App [lcalc-worker] with id [1] and pid [27983], exited with code [0] via signal [SIGINT]
+2017-09-08 19:50:47: pid=27978 msg=process killed
+2017-09-08 19:50:47: pid=27983 msg=process killed
+2017-09-08 19:50:50: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 19:50:50: App name:lcalc-main id:0 online
+2017-09-08 19:50:50: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 19:50:50: App name:lcalc-worker id:1 online
+2017-09-08 19:54:47: Stopping app:lcalc-main id:0
+2017-09-08 19:54:47: Stopping app:lcalc-worker id:1
+2017-09-08 19:54:47: App [lcalc-main] with id [0] and pid [28725], exited with code [0] via signal [SIGINT]
+2017-09-08 19:54:47: App [lcalc-worker] with id [1] and pid [28731], exited with code [0] via signal [SIGINT]
+2017-09-08 19:54:47: pid=28725 msg=process killed
+2017-09-08 19:54:47: pid=28731 msg=process killed
+2017-09-08 19:54:50: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 19:54:50: App name:lcalc-main id:0 online
+2017-09-08 19:54:50: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 19:54:50: App name:lcalc-worker id:1 online
+2017-09-08 20:22:35: Stopping app:lcalc-main id:0
+2017-09-08 20:22:35: Stopping app:lcalc-worker id:1
+2017-09-08 20:22:35: App [lcalc-main] with id [0] and pid [29063], exited with code [0] via signal [SIGINT]
+2017-09-08 20:22:35: App [lcalc-worker] with id [1] and pid [29068], exited with code [0] via signal [SIGINT]
+2017-09-08 20:22:36: pid=29063 msg=process killed
+2017-09-08 20:22:36: pid=29068 msg=process killed
+2017-09-08 20:22:38: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 20:22:38: App name:lcalc-main id:0 online
+2017-09-08 20:22:38: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 20:22:38: App name:lcalc-worker id:1 online
+2017-09-08 20:32:15: Stopping app:lcalc-main id:0
+2017-09-08 20:32:15: Stopping app:lcalc-worker id:1
+2017-09-08 20:32:15: App [lcalc-worker] with id [1] and pid [29863], exited with code [0] via signal [SIGINT]
+2017-09-08 20:32:15: App [lcalc-main] with id [0] and pid [29858], exited with code [0] via signal [SIGINT]
+2017-09-08 20:32:15: pid=29858 msg=process killed
+2017-09-08 20:32:15: pid=29863 msg=process killed
+2017-09-08 20:32:18: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-08 20:32:18: App name:lcalc-main id:0 online
+2017-09-08 20:32:18: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-08 20:32:18: App name:lcalc-worker id:1 online
+2017-09-11 17:20:12: Stopping app:lcalc-main id:0
+2017-09-11 17:20:12: Stopping app:lcalc-worker id:1
+2017-09-11 17:20:12: App [lcalc-main] with id [0] and pid [30223], exited with code [0] via signal [SIGINT]
+2017-09-11 17:20:12: App [lcalc-worker] with id [1] and pid [30228], exited with code [0] via signal [SIGINT]
+2017-09-11 17:20:12: pid=30223 msg=process killed
+2017-09-11 17:20:12: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-11 17:20:12: App name:lcalc-main id:0 online
+2017-09-11 17:20:12: pid=30228 msg=process killed
+2017-09-11 17:20:12: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-11 17:20:12: App name:lcalc-worker id:1 online
+2017-09-11 17:20:23: Stopping app:lcalc-main id:0
+2017-09-11 17:20:23: Stopping app:lcalc-worker id:1
+2017-09-11 17:20:23: App [lcalc-main] with id [0] and pid [14590], exited with code [0] via signal [SIGINT]
+2017-09-11 17:20:23: App [lcalc-worker] with id [1] and pid [14591], exited with code [0] via signal [SIGINT]
+2017-09-11 17:20:23: pid=14590 msg=process killed
+2017-09-11 17:20:23: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-11 17:20:23: App name:lcalc-main id:0 online
+2017-09-11 17:20:23: pid=14591 msg=process killed
+2017-09-11 17:20:23: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-11 17:20:23: App name:lcalc-worker id:1 online
+2017-09-14 14:21:27: Stopping app:lcalc-main id:0
+2017-09-14 14:21:27: Stopping app:lcalc-worker id:1
+2017-09-14 14:21:27: App [lcalc-worker] with id [1] and pid [14633], exited with code [0] via signal [SIGINT]
+2017-09-14 14:21:27: App [lcalc-main] with id [0] and pid [14627], exited with code [0] via signal [SIGINT]
+2017-09-14 14:21:27: pid=14627 msg=process killed
+2017-09-14 14:21:27: pid=14633 msg=process killed
+2017-09-14 14:21:30: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-09-14 14:21:30: App name:lcalc-main id:0 online
+2017-09-14 14:21:30: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-09-14 14:21:30: App name:lcalc-worker id:1 online
+2017-10-06 15:28:43: Stopping app:lcalc-main id:0
+2017-10-06 15:28:43: App [lcalc-main] with id [0] and pid [6313], exited with code [0] via signal [SIGINT]
+2017-10-06 15:28:43: pid=6313 msg=process killed
+2017-10-06 15:28:43: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-10-06 15:28:43: App name:lcalc-main id:0 online
+2017-10-10 12:07:29: Stopping app:lcalc-main id:0
+2017-10-10 12:07:29: Stopping app:lcalc-worker id:1
+2017-10-10 12:07:29: App [lcalc-worker] with id [1] and pid [6318], exited with code [0] via signal [SIGINT]
+2017-10-10 12:07:29: App [lcalc-main] with id [0] and pid [3054], exited with code [0] via signal [SIGINT]
+2017-10-10 12:07:29: pid=3054 msg=process killed
+2017-10-10 12:07:29: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2017-10-10 12:07:29: App name:lcalc-main id:0 online
+2017-10-10 12:07:29: pid=6318 msg=process killed
+2017-10-10 12:07:29: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2017-10-10 12:07:30: App name:lcalc-worker id:1 online
+2018-01-15 04:00:37: Stopping app:lcalc-main id:0
+2018-01-15 04:00:37: Stopping app:lcalc-worker id:1
+2018-01-15 04:00:37: App [lcalc-main] with id [0] and pid [1709], exited with code [0] via signal [SIGINT]
+2018-01-15 04:00:37: [HandleExit] PM2 is being killed, stopping restart procedure...
+2018-01-15 04:00:37: App [lcalc-worker] with id [1] and pid [1710], exited with code [0] via signal [SIGINT]
+2018-01-15 04:00:37: [HandleExit] PM2 is being killed, stopping restart procedure...
+2018-01-15 04:00:37: pid=1709 msg=process killed
+2018-01-15 04:00:37: pid=1710 msg=process killed
+2018-01-15 04:00:38: ===============================================================================
+2018-01-15 04:00:38: --- Stopping PM2 --------------------------------------------------------------
+2018-01-15 04:00:38: Time                 : Mon Jan 15 2018 04:00:38 GMT+0000 (UTC)
+2018-01-15 04:00:38: ===============================================================================
+2018-01-15 04:00:38: RPC closed
+2018-01-15 04:00:38: PUB closed
+2018-01-15 04:00:38: PM2 successfully stopped
+2018-01-15 04:00:38: pm2 has been killed by signal, dumping process list before exit...
+2018-01-15 04:00:38: [PM2] Exited peacefully
+2018-01-15 04:14:50: ===============================================================================
+2018-01-15 04:14:51: --- New PM2 Daemon started ----------------------------------------------------
+2018-01-15 04:14:51: Time                 : Mon Jan 15 2018 04:14:51 GMT+0000 (UTC)
+2018-01-15 04:14:51: PM2 version          : 2.5.0
+2018-01-15 04:14:51: Node.js version      : 8.9.3
+2018-01-15 04:14:51: Current arch         : x64
+2018-01-15 04:14:51: PM2 home             : /root/.pm2
+2018-01-15 04:14:51: PM2 PID file         : /root/.pm2/pm2.pid
+2018-01-15 04:14:51: RPC socket file      : /root/.pm2/rpc.sock
+2018-01-15 04:14:51: BUS socket file      : /root/.pm2/pub.sock
+2018-01-15 04:14:51: Application log path : /root/.pm2/logs
+2018-01-15 04:14:51: Process dump file    : /root/.pm2/dump.pm2
+2018-01-15 04:14:51: Concurrent actions   : 2
+2018-01-15 04:14:51: SIGTERM timeout      : 1600
+2018-01-15 04:14:51: ===============================================================================
+2018-01-15 04:14:51: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-01-15 04:14:51: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2018-01-15 04:14:51: App name:lcalc-main id:0 online
+2018-01-15 04:14:51: App name:lcalc-worker id:1 online
+2018-01-15 04:14:55: App [lcalc-main] with id [0] and pid [4145], exited with code [0] via signal [SIGINT]
+2018-01-15 04:14:55: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-01-15 04:14:55: App name:lcalc-main id:0 online
+2018-03-14 17:25:12: Stopping app:lcalc-main id:0
+2018-03-14 17:25:12: Stopping app:lcalc-worker id:1
+2018-03-14 17:25:12: App [lcalc-worker] with id [1] and pid [4150], exited with code [0] via signal [SIGINT]
+2018-03-14 17:25:12: [HandleExit] PM2 is being killed, stopping restart procedure...
+2018-03-14 17:25:12: App [lcalc-main] with id [0] and pid [4263], exited with code [0] via signal [SIGINT]
+2018-03-14 17:25:12: [HandleExit] PM2 is being killed, stopping restart procedure...
+2018-03-14 17:25:12: pid=4263 msg=process killed
+2018-03-14 17:25:12: pid=4150 msg=process killed
+2018-03-14 17:25:12: ===============================================================================
+2018-03-14 17:25:12: --- Stopping PM2 --------------------------------------------------------------
+2018-03-14 17:25:12: Time                 : Wed Mar 14 2018 17:25:12 GMT+0000 (UTC)
+2018-03-14 17:25:12: ===============================================================================
+2018-03-14 17:25:12: RPC closed
+2018-03-14 17:25:12: PUB closed
+2018-03-14 17:25:12: PM2 successfully stopped
+2018-03-14 17:27:51: ===============================================================================
+2018-03-14 17:27:51: --- New PM2 Daemon started ----------------------------------------------------
+2018-03-14 17:27:51: Time                 : Wed Mar 14 2018 17:27:51 GMT+0000 (UTC)
+2018-03-14 17:27:51: PM2 version          : 2.5.0
+2018-03-14 17:27:51: Node.js version      : 8.9.3
+2018-03-14 17:27:51: Current arch         : x64
+2018-03-14 17:27:51: PM2 home             : /root/.pm2
+2018-03-14 17:27:51: PM2 PID file         : /root/.pm2/pm2.pid
+2018-03-14 17:27:51: RPC socket file      : /root/.pm2/rpc.sock
+2018-03-14 17:27:51: BUS socket file      : /root/.pm2/pub.sock
+2018-03-14 17:27:51: Application log path : /root/.pm2/logs
+2018-03-14 17:27:51: Process dump file    : /root/.pm2/dump.pm2
+2018-03-14 17:27:51: Concurrent actions   : 2
+2018-03-14 17:27:51: SIGTERM timeout      : 1600
+2018-03-14 17:27:51: ===============================================================================
+2018-03-14 17:27:51: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-03-14 17:27:51: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2018-03-14 17:27:51: App name:lcalc-main id:0 online
+2018-03-14 17:27:51: App name:lcalc-worker id:1 online
+2018-03-14 17:27:55: App [lcalc-main] with id [0] and pid [4160], exited with code [0] via signal [SIGINT]
+2018-03-14 17:27:55: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-03-14 17:27:55: App name:lcalc-main id:0 online
+2018-05-01 00:04:51: Stopping app:lcalc-main id:0
+2018-05-01 00:04:51: Stopping app:lcalc-worker id:1
+2018-05-01 00:04:51: App [lcalc-main] with id [0] and pid [4278], exited with code [0] via signal [SIGINT]
+2018-05-01 00:04:51: [HandleExit] PM2 is being killed, stopping restart procedure...
+2018-05-01 00:04:51: App [lcalc-worker] with id [1] and pid [4166], exited with code [0] via signal [SIGINT]
+2018-05-01 00:04:51: [HandleExit] PM2 is being killed, stopping restart procedure...
+2018-05-01 00:04:51: pid=4278 msg=process killed
+2018-05-01 00:04:51: pid=4166 msg=process killed
+2018-05-01 00:04:51: ===============================================================================
+2018-05-01 00:04:51: --- Stopping PM2 --------------------------------------------------------------
+2018-05-01 00:04:51: Time                 : Tue May 01 2018 00:04:51 GMT+0000 (UTC)
+2018-05-01 00:04:51: ===============================================================================
+2018-05-01 00:04:51: RPC closed
+2018-05-01 00:04:51: PUB closed
+2018-05-01 00:04:51: PM2 successfully stopped
+2018-05-01 00:04:51: pm2 has been killed by signal, dumping process list before exit...
+2018-05-01 00:04:51: [PM2] Exited peacefully
+2018-05-01 00:14:44: ===============================================================================
+2018-05-01 00:14:44: --- New PM2 Daemon started ----------------------------------------------------
+2018-05-01 00:14:44: Time                 : Tue May 01 2018 00:14:44 GMT+0000 (UTC)
+2018-05-01 00:14:44: PM2 version          : 2.5.0
+2018-05-01 00:14:44: Node.js version      : 8.9.3
+2018-05-01 00:14:44: Current arch         : x64
+2018-05-01 00:14:44: PM2 home             : /root/.pm2
+2018-05-01 00:14:44: PM2 PID file         : /root/.pm2/pm2.pid
+2018-05-01 00:14:44: RPC socket file      : /root/.pm2/rpc.sock
+2018-05-01 00:14:44: BUS socket file      : /root/.pm2/pub.sock
+2018-05-01 00:14:44: Application log path : /root/.pm2/logs
+2018-05-01 00:14:44: Process dump file    : /root/.pm2/dump.pm2
+2018-05-01 00:14:44: Concurrent actions   : 2
+2018-05-01 00:14:44: SIGTERM timeout      : 1600
+2018-05-01 00:14:44: ===============================================================================
+2018-05-01 00:14:44: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-05-01 00:14:44: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2018-05-01 00:14:44: App name:lcalc-main id:0 online
+2018-05-01 00:14:44: App name:lcalc-worker id:1 online
+2018-05-01 00:14:49: App [lcalc-main] with id [0] and pid [4035], exited with code [0] via signal [SIGINT]
+2018-05-01 00:14:49: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-05-01 00:14:49: App name:lcalc-main id:0 online
+2018-07-18 23:45:46: ===============================================================================
+2018-07-18 23:45:46: --- New PM2 Daemon started ----------------------------------------------------
+2018-07-18 23:45:46: Time                 : Wed Jul 18 2018 23:45:46 GMT+0000 (UTC)
+2018-07-18 23:45:46: PM2 version          : 2.5.0
+2018-07-18 23:45:46: Node.js version      : 8.9.3
+2018-07-18 23:45:46: Current arch         : x64
+2018-07-18 23:45:46: PM2 home             : /root/.pm2
+2018-07-18 23:45:46: PM2 PID file         : /root/.pm2/pm2.pid
+2018-07-18 23:45:46: RPC socket file      : /root/.pm2/rpc.sock
+2018-07-18 23:45:46: BUS socket file      : /root/.pm2/pub.sock
+2018-07-18 23:45:46: Application log path : /root/.pm2/logs
+2018-07-18 23:45:46: Process dump file    : /root/.pm2/dump.pm2
+2018-07-18 23:45:46: Concurrent actions   : 2
+2018-07-18 23:45:46: SIGTERM timeout      : 1600
+2018-07-18 23:45:46: ===============================================================================
+2018-07-18 23:45:46: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-07-18 23:45:46: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2018-07-18 23:45:46: App name:lcalc-main id:0 online
+2018-07-18 23:45:46: App name:lcalc-worker id:1 online
+2018-07-18 23:45:52: App [lcalc-main] with id [0] and pid [4062], exited with code [0] via signal [SIGINT]
+2018-07-18 23:45:52: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2018-07-18 23:45:52: App name:lcalc-main id:0 online
+2019-06-26 02:02:58: Stopping app:lcalc-main id:0
+2019-06-26 02:02:58: Stopping app:lcalc-worker id:1
+2019-06-26 02:02:58: App [lcalc-worker] with id [1] and pid [4064], exited with code [0] via signal [SIGINT]
+2019-06-26 02:02:58: [HandleExit] PM2 is being killed, stopping restart procedure...
+2019-06-26 02:02:58: App [lcalc-main] with id [0] and pid [4178], exited with code [0] via signal [SIGINT]
+2019-06-26 02:02:58: [HandleExit] PM2 is being killed, stopping restart procedure...
+2019-06-26 02:02:58: pid=4178 msg=process killed
+2019-06-26 02:02:58: pid=4064 msg=process killed
+2019-06-26 02:02:58: ===============================================================================
+2019-06-26 02:02:58: --- Stopping PM2 --------------------------------------------------------------
+2019-06-26 02:02:58: Time                 : Wed Jun 26 2019 02:02:58 GMT+0000 (UTC)
+2019-06-26 02:02:58: ===============================================================================
+2019-06-26 02:02:58: RPC closed
+2019-06-26 02:02:58: PUB closed
+2019-06-26 02:02:58: PM2 successfully stopped
+2019-06-26 02:18:45: ===============================================================================
+2019-06-26 02:18:45: --- New PM2 Daemon started ----------------------------------------------------
+2019-06-26 02:18:45: Time                 : Wed Jun 26 2019 02:18:45 GMT+0000 (UTC)
+2019-06-26 02:18:45: PM2 version          : 2.5.0
+2019-06-26 02:18:45: Node.js version      : 8.9.3
+2019-06-26 02:18:45: Current arch         : x64
+2019-06-26 02:18:45: PM2 home             : /root/.pm2
+2019-06-26 02:18:45: PM2 PID file         : /root/.pm2/pm2.pid
+2019-06-26 02:18:45: RPC socket file      : /root/.pm2/rpc.sock
+2019-06-26 02:18:45: BUS socket file      : /root/.pm2/pub.sock
+2019-06-26 02:18:45: Application log path : /root/.pm2/logs
+2019-06-26 02:18:45: Process dump file    : /root/.pm2/dump.pm2
+2019-06-26 02:18:45: Concurrent actions   : 2
+2019-06-26 02:18:45: SIGTERM timeout      : 1600
+2019-06-26 02:18:45: ===============================================================================
+2019-06-26 02:18:45: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2019-06-26 02:18:45: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2019-06-26 02:18:45: App name:lcalc-main id:0 online
+2019-06-26 02:18:45: App name:lcalc-worker id:1 online
+2019-10-19 03:08:13: Stopping app:lcalc-main id:0
+2019-10-19 03:08:13: Stopping app:lcalc-worker id:1
+2019-10-19 03:08:13: App [lcalc-worker] with id [1] and pid [1789], exited with code [0] via signal [SIGINT]
+2019-10-19 03:08:13: [HandleExit] PM2 is being killed, stopping restart procedure...
+2019-10-19 03:08:13: App [lcalc-main] with id [0] and pid [1784], exited with code [0] via signal [SIGINT]
+2019-10-19 03:08:13: [HandleExit] PM2 is being killed, stopping restart procedure...
+2019-10-19 03:08:13: pid=1784 msg=process killed
+2019-10-19 03:08:13: pid=1789 msg=process killed
+2019-10-19 03:08:13: ===============================================================================
+2019-10-19 03:08:13: --- Stopping PM2 --------------------------------------------------------------
+2019-10-19 03:08:13: Time                 : Sat Oct 19 2019 03:08:13 GMT+0000 (UTC)
+2019-10-19 03:08:13: ===============================================================================
+2019-10-19 03:08:13: RPC closed
+2019-10-19 03:08:13: PUB closed
+2019-10-19 03:08:13: PM2 successfully stopped
+2019-10-19 03:16:34: ===============================================================================
+2019-10-19 03:16:34: --- New PM2 Daemon started ----------------------------------------------------
+2019-10-19 03:16:34: Time                 : Sat Oct 19 2019 03:16:34 GMT+0000 (UTC)
+2019-10-19 03:16:34: PM2 version          : 2.5.0
+2019-10-19 03:16:34: Node.js version      : 8.9.3
+2019-10-19 03:16:34: Current arch         : x64
+2019-10-19 03:16:34: PM2 home             : /root/.pm2
+2019-10-19 03:16:34: PM2 PID file         : /root/.pm2/pm2.pid
+2019-10-19 03:16:34: RPC socket file      : /root/.pm2/rpc.sock
+2019-10-19 03:16:34: BUS socket file      : /root/.pm2/pub.sock
+2019-10-19 03:16:34: Application log path : /root/.pm2/logs
+2019-10-19 03:16:34: Process dump file    : /root/.pm2/dump.pm2
+2019-10-19 03:16:34: Concurrent actions   : 2
+2019-10-19 03:16:34: SIGTERM timeout      : 1600
+2019-10-19 03:16:34: ===============================================================================
+2019-10-19 03:16:34: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2019-10-19 03:16:34: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2019-10-19 03:16:34: App name:lcalc-main id:0 online
+2019-10-19 03:16:34: App name:lcalc-worker id:1 online
+2020-07-21 16:07:37: Stopping app:lcalc-main id:0
+2020-07-21 16:07:37: Stopping app:lcalc-worker id:1
+2020-07-21 16:07:37: App [lcalc-main] with id [0] and pid [1791], exited with code [0] via signal [SIGINT]
+2020-07-21 16:07:37: [HandleExit] PM2 is being killed, stopping restart procedure...
+2020-07-21 16:07:37: App [lcalc-worker] with id [1] and pid [1796], exited with code [0] via signal [SIGINT]
+2020-07-21 16:07:37: [HandleExit] PM2 is being killed, stopping restart procedure...
+2020-07-21 16:07:37: pid=1791 msg=process killed
+2020-07-21 16:07:37: pid=1796 msg=process killed
+2020-07-21 16:07:37: ===============================================================================
+2020-07-21 16:07:37: --- Stopping PM2 --------------------------------------------------------------
+2020-07-21 16:07:37: Time                 : Tue Jul 21 2020 16:07:37 GMT+0000 (UTC)
+2020-07-21 16:07:37: ===============================================================================
+2020-07-21 16:07:37: RPC closed
+2020-07-21 16:07:37: PUB closed
+2020-07-21 16:07:37: PM2 successfully stopped
+2020-07-21 16:14:58: ===============================================================================
+2020-07-21 16:14:58: --- New PM2 Daemon started ----------------------------------------------------
+2020-07-21 16:14:58: Time                 : Tue Jul 21 2020 16:14:58 GMT+0000 (UTC)
+2020-07-21 16:14:58: PM2 version          : 2.5.0
+2020-07-21 16:14:58: Node.js version      : 8.9.3
+2020-07-21 16:14:58: Current arch         : x64
+2020-07-21 16:14:58: PM2 home             : /root/.pm2
+2020-07-21 16:14:58: PM2 PID file         : /root/.pm2/pm2.pid
+2020-07-21 16:14:58: RPC socket file      : /root/.pm2/rpc.sock
+2020-07-21 16:14:58: BUS socket file      : /root/.pm2/pub.sock
+2020-07-21 16:14:58: Application log path : /root/.pm2/logs
+2020-07-21 16:14:58: Process dump file    : /root/.pm2/dump.pm2
+2020-07-21 16:14:58: Concurrent actions   : 2
+2020-07-21 16:14:58: SIGTERM timeout      : 1600
+2020-07-21 16:14:58: ===============================================================================
+2020-07-21 16:14:58: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2020-07-21 16:14:58: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2020-07-21 16:14:58: App name:lcalc-main id:0 online
+2020-07-21 16:14:59: App name:lcalc-worker id:1 online
+2020-07-21 16:59:00: Stopping app:lcalc-main id:0
+2020-07-21 16:59:00: Stopping app:lcalc-worker id:1
+2020-07-21 16:59:00: App [lcalc-worker] with id [1] and pid [1811], exited with code [0] via signal [SIGINT]
+2020-07-21 16:59:00: [HandleExit] PM2 is being killed, stopping restart procedure...
+2020-07-21 16:59:00: App [lcalc-main] with id [0] and pid [1806], exited with code [0] via signal [SIGINT]
+2020-07-21 16:59:00: [HandleExit] PM2 is being killed, stopping restart procedure...
+2020-07-21 16:59:00: pid=1806 msg=process killed
+2020-07-21 16:59:00: pid=1811 msg=process killed
+2020-07-21 16:59:01: ===============================================================================
+2020-07-21 16:59:01: --- Stopping PM2 --------------------------------------------------------------
+2020-07-21 16:59:01: Time                 : Tue Jul 21 2020 16:59:01 GMT+0000 (UTC)
+2020-07-21 16:59:01: ===============================================================================
+2020-07-21 16:59:01: RPC closed
+2020-07-21 16:59:01: PUB closed
+2020-07-21 16:59:01: PM2 successfully stopped
+2020-07-21 16:59:01: pm2 has been killed by signal, dumping process list before exit...
+2020-07-21 16:59:01: [PM2] Exited peacefully
+2020-07-21 17:01:16: ===============================================================================
+2020-07-21 17:01:16: --- New PM2 Daemon started ----------------------------------------------------
+2020-07-21 17:01:16: Time                 : Tue Jul 21 2020 17:01:16 GMT+0000 (UTC)
+2020-07-21 17:01:16: PM2 version          : 2.5.0
+2020-07-21 17:01:16: Node.js version      : 8.10.0
+2020-07-21 17:01:16: Current arch         : x64
+2020-07-21 17:01:16: PM2 home             : /root/.pm2
+2020-07-21 17:01:16: PM2 PID file         : /root/.pm2/pm2.pid
+2020-07-21 17:01:16: RPC socket file      : /root/.pm2/rpc.sock
+2020-07-21 17:01:16: BUS socket file      : /root/.pm2/pub.sock
+2020-07-21 17:01:16: Application log path : /root/.pm2/logs
+2020-07-21 17:01:16: Process dump file    : /root/.pm2/dump.pm2
+2020-07-21 17:01:16: Concurrent actions   : 2
+2020-07-21 17:01:16: SIGTERM timeout      : 1600
+2020-07-21 17:01:16: ===============================================================================
+2020-07-21 17:01:16: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2020-07-21 17:01:16: Starting execution sequence in -fork mode- for app name:lcalc-worker id:1
+2020-07-21 17:01:16: App name:lcalc-main id:0 online
+2020-07-21 17:01:16: App name:lcalc-worker id:1 online
+2020-07-21 17:01:22: App [lcalc-main] with id [0] and pid [1839], exited with code [0] via signal [SIGINT]
+2020-07-21 17:01:22: Starting execution sequence in -fork mode- for app name:lcalc-main id:0
+2020-07-21 17:01:22: App name:lcalc-main id:0 online

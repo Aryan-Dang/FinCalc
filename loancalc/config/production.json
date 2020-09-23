@@ -1,0 +1,38 @@
+{
+    "server": {
+        "port": 8080,
+        "sslPort": 443,
+        "useCookieAuth": false,
+        "enableGraphQLGUI": false,
+        "uploadTTL": 12,
+        "uploadTTLUnits": "hours"
+    },
+    
+    "facebook": {
+        "appId": "1949037802032060",
+        "appSecret": "88cbc2a05823a5a534f8bb5c793b17c1"
+    },
+
+    "mailchimp": {
+        "clientId": "856934160040",
+        "clientSecret": "4190ad9d4f5cae9ec022eee082f011cc00f6aefcf951acf173"
+    },
+    
+    "db": {
+        "user": "lcalcuser",
+        "password": "calculator",
+        "host": "localhost",
+        "port": 5432,
+        "name": "loancalc"
+    },
+
+    "webpack": {
+        "calculator": {
+            "file": "../lcalc-app/build/webpack.dev.conf.js"
+        },
+
+        "dashboard": {
+            "file": "../lcalc-dash/build/webpack.dev.conf.js"
+        }
+    }
+}

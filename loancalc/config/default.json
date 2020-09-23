@@ -1,0 +1,24 @@
+{
+    "app": {
+        "ignoreDuplicateLeads": false
+    },
+
+    "queue": {
+        "host": null,
+        "port": null,
+        "exchange": "loancalc"
+    },
+
+    "server": {
+        "uploadDir": "protected/uploads",
+        "uploadTTL": 30,
+        "uploadTTLUnits": "minutes",
+        "forceSSL": false,
+        "enableDebugController": false
+    },
+
+    "graphiql": {
+        "loginEmail": "",
+        "loginPassword": ""
+    }
+}

@@ -1,0 +1,18 @@
+doctype html
+html
+    head
+        link(rel="stylesheet", href="/static/css/site/calc-list.css")
+        link(rel="stylesheet", href="/static/css/core.css")
+    body
+        div.calc-list-container
+            div.card
+                div.card-header.darkened
+                    div.card-title.flex-layout.flex-center.flex-center-cross.flex-column
+                        img(src="/ustatic/" + client.branding_img, style="max-width: 256px; margin-bottom: 8px;")
+                        h4(style="margin-bottom: 0;") #{client.name} Loan Calculators
+                div.card-body
+                    div.calculator-list
+                        each calc in calculators
+                            a.calculator-item(href="/calc/" + calc.shortid + "?cbackbutton=" + meta.backURL)
+                                span.calculator-item-name #{calc.name}
+                                span.calculator-item-label: span.label #{calc.calc_type} Calculator

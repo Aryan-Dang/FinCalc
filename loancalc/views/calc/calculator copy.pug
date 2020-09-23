@@ -1,0 +1,44 @@
+doctype html
+html
+    head
+        meta(name="viewport", content="width=device-width")
+        link(href='/public/css/calculator.css', rel="stylesheet")
+        link(href='/public/css/core.css', rel="stylesheet")
+        link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700', rel="stylesheet")
+    title #{calcName || 'UNKNOWN'} Calculator
+    body
+        include ./partials/_template-calculator.pug
+        div.branding
+            img(src="/public/img/logo.png")
+        div.container: div.row#calc-container.show-form
+            div.col.col-6.col-md-12.calculator-form: form(onsubmit="return false;")
+                div.form-group
+                    label.form-label(for="input-loan-amt") Loan Amount
+                    div.form-line
+                        div.form-static $
+                        input.form-input(type="text", id="input-loan-amt", placeholder="e.g. 20,000")
+                div.form-group
+                    label.form-label(for="input-down-payment") Down Payment
+                    div.form-line
+                        div.form-static $
+                        input.form-input(type="text", id="input-down-payment", placeholder="e.g. 3,000") 
+                div.form-group
+                    label.form-label(for="input-paid-within") Paid Within
+                    div.form-line
+                        input.form-input(type="text", id="input-paid-within", placeholder="# Months") 
+                        div.form-static Months
+                div.form-group
+                    label.form-label(for="input-interest-rate") Interest Rate (APR)
+                    div.form-line
+                        input.form-input(type="text", id="input-interest-rate", placeholder="e.g. 2.4%")
+                        div.form-static %
+                div.flex-layout.flex-align-right
+                    button.btn.primary#calc-button Calculate
+            div.col.col-6.col-md-12.calculator-graph
+                div(id="loanGraph")
+                table#calculator-legend
+                button.btn.primary.calc-nav-btn#calc-apply-button Apply Now
+                button.btn.calc-nav-btn#calc-back-button Back
+                //- div.row.center-text: h5(style="width: 100%;") Estimated Monthly Payment
+                //- div.row.center-text: h3(style="width: 100%;") $1,024
+        script(src="/public/js/calculator.bundle.js")

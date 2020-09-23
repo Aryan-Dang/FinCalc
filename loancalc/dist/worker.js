@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});const scheduler_1=require("./workers/scheduler"),tasks_1=require("./workers/tasks");scheduler_1.initScheduler(),tasks_1.initTasks();

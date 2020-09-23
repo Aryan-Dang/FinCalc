@@ -1,0 +1,5 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+dl.eff.org	0	1	1595181801	63072000
+www.python.org	0	1	1499785665	63072000
