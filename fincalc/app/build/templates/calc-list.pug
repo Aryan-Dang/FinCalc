@@ -1,0 +1,41 @@
+doctype html
+html
+    head
+        meta(charsert="utf-8")
+        meta(name="viewport", content="width=device-width")
+        title FinCalc
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lato:300,400,700")
+        link(rel="stylesheet", href="/static/css/calc-list/calc-list.css")
+    body
+        div.container(style="min-height: 480px;")
+            iframe#calc-frame(style="border: none; min-height: 512px; width: 100%; height: 100%; display: none;")
+            div#calc-list-display
+                nav.branding(style="margin-top: 16px;")
+                    div(style="text-align: center;"): img.branding-img(src=brandingImage)
+                main.content
+                    h2(style="text-align: center; font-weight: normal;") Financial Calculators
+                    .calc-list
+                        each calculator in calculators
+                            .calc-item(data-calc=calculator.shortid)
+                                .calc-title=calculator.name
+                                .calc-meta=calculator.typeText + " Calculator"
+                footer
+                    div.muted-text(style="text-align: center")
+                        | Powered By 
+                        a(href="https://fincalc.co:8993") Fincalc
+        script(type="text/javascript").
+            var calcFrame = document.getElementById("calc-frame");
+            var listDisplay = document.getElementById("calc-list-display");
+            var items = document.querySelectorAll("[data-calc]");
+            for (var idx = 0; idx < items.length; idx++) {
+                var elem = items.item(idx);
+                var shortid = elem.getAttribute("data-calc");
+
+                (function(elem, shortid) {
+                    elem.addEventListener("click", function() {
+                        calcFrame.src = "/calculator/" + shortid;
+                        calcFrame.style.display = "block";
+                        listDisplay.style.display = "none";
+                    });
+                })(elem, shortid);
+            }

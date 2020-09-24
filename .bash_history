@@ -1,165 +1,3 @@
-git config
-git config --list
-mkdir folder
-cd folder/
-git clone https://ExPixel@bitbucket.org/ExPixelfincalc-app.git
-git clone https://ExPixel@bitbucket.org/ExPixel/fincalc-app.git
-git clone git@ExPixel@bitbucket.org/ExPixel/fincalc-app.git
-git clone git@bitbucket.org/ExPixel/fincalc-app.git
-git clone git@bitbucket.org:ExPixel/fincalc-app.git
-ls
-cd fincalc-app/
-ls
-cd ..
-ls
-cd loancalc/
-cd
-cd fincalc/
-top
-postgres
-which psql
-psql
-sudo psql
-su root
-sudo -u fincalc -p $trategis3312!
-su fincalc
-cut -d: -f1 /etc/passwd
-psql fincalc
-cd /var/lib/postgresql/
-ls
-cd 9.6/
-ls
-cd main/
-ls
-cd base/
-ls
-netstat -tulpn
-apt install net-tools
-netstat -tulpn
-cd /home/
-ls
-cd ..
-ls
-cd /home/
-ls
-cd ..
-cd root/
-ls
-cd fincalc/
-ls
-docker ps
-docker logs
-docker images
-top
-psql
-psql fincalc
-psql postgres
-psql fincalc root
-psql root
-psql
-psql -u root
-psql -U root
-psql -U postgres
-psql -U root
-psql postgres root
-node -V
-npm -V
-npm -v
-node -v
-docker-machine
-docker
-ls
-cd app
-ls
-whereis docker
-docker container ls
-docker container ls -all
-docker run -t -i nginx:alphine /bin/bash
-docker run -t -i nginx:alpine /bin/bash
-docker run -t -i nginx:alpine 
-docker ps
-
-docker run -t -i nginx:alpine /bin/bash
-sudo systemctl start docker
-
-docker run -it nginx:alpine sh
-docker export --output="output.tar"  nginx:alpine
-docker container ls
-whereis nginx
-cd /usr/share/nginx/
-ls
-cd modules
-ls
-cd ..
-cd..
-cd ..
-cd.
-cd ..
-ls
-cd home
-ls
-cd ..
-cd root
-ls
-cd ..
-cd..
-cd ..
-cd vml
-cd vmlinuz
-ls
-docker images -all
-docker images
-docker export --output="./output.tar" fincalc_app 
-docker container 
-
-docker os
-docker ps
-docker ps -a
-docker inspect fincalc_app
-docker container
-docker container ls
-docker container ls -all
-sh
-docker container ls -all
-docker export --output="./latest.tar"  nginx:alpine 
-docker export --output="./latest.tar"  2d746fe79a5b
-ls
-cd root
-ls
-docker export --output="/root/latest.tar"  2d746fe79a5b
-ls
-cd workingdir/
-ls
-ls
-cd fincalc/
-ls
-postgres
-psql
-psql postgres 
-psql fincalc fincalc
-psql fincalc -u fincalc 
-psql fincalc --u fincalc 
-psql fincalc
-sudo -u fincalc
-su fincalc
-su --login 
-cd ..
-docker cp 2d746fe79a5b/root/fincalc/* ./workingdir
-docker cp -r 2d746fe79a5b/root/fincalc/* ./workingdir
-docker cp -help
-docker cp --help
-docker cp -r 2d746fe79a5b/root/fincalc/ ./workingdir
-docker cp 2d746fe79a5b/root/fincalc/ ./workingdir
-docker cp --help
-docker cp -L 2d746fe79a5b/root/fincalc/* ./workingdir
-docker cp 2d746fe79a5b:/root/fincalc ./workingdir
-sh
-cd ..
-docker ps -a
-cd /bin/bash
-/bin/bash -g 'cd /root/fincalc
-sudo su fincalc
-postgres
 psql
 psql -u fincalc
 psql --u fincalc
@@ -1998,3 +1836,165 @@ ls
 cd root
 ls
 git status
+ls
+git init
+git add
+git add .
+git commit
+git commit -m 'first commit'
+git remote add origin https://github.com/Rjambunathan/FinCalc.git
+git push -u origin master
+git remote add origin https://github.com/Rjambunathan/FinCalc.git
+git pull origin master
+git pull origin master --allow-unrelated-histories
+git pull origin master --allow-unrelated-histories "first pull"
+git push origin master
+git pull origin master
+git merge --abort
+git pull origin master --allow-unrelated-histories "First merge"
+git pull origin master --allow-unrelated-histories
+git push origin master
+ls
+cd ../
+ls
+cd root
+ls
+cd fincalc/
+ls
+cd ../
+ls
+cd fincalc/
+ls
+cd folder/
+ls
+cd fincalc
+ls
+cd config/
+ls
+cd ../
+ls
+cd tools/
+ls
+cd ..
+ls
+cd app/
+ls
+cd ..
+cd ../
+ls
+cd fincalc-app/
+ls
+cd bugs/
+ls
+cd images/
+ls
+cd ../
+ls
+cd ../
+ls
+cd dashboard/
+ls
+cd build/
+ls
+cat index.html
+cd ../
+ls
+cd ../
+ls
+cd ../
+ls
+cd ../
+ls
+cd ///
+cd ../
+ls
+cd root/
+ls
+cd loancalc/
+ls
+cd views/
+ls
+cd calc/
+ls
+cd ../
+ls
+git status
+git commit -a
+git push origin master
+ls
+cd ../
+ls
+cd ../
+ls
+cd fincalc/
+ls
+cd folder/
+ls
+cd ../
+ls
+cd appl
+ls
+cd app
+ls
+cd ../
+ls
+cd folder
+ls
+cd fincalc
+ls
+cd ../
+ls
+cd ../
+ls
+cd ../
+ls
+cd loancalc/
+ls
+cd ../
+ls
+git status
+git commit -a
+git push origin master
+git status
+git add fincalc
+git status
+git add fincalc
+git commit
+git push origin master
+git status
+cd ../
+ls
+cd root/
+ls
+git staus
+git status
+git rm -rf --cached fincalc
+git add fincalc
+rm -rf fincalc/.git
+ls
+git status
+git add fincalc
+git commit
+git push origin master
+ls
+git status
+git commit -a
+git push origin master
+git commit -a
+git push origin master
+ls
+git status
+git push -f origin master
+ls
+cd fincalc
+ls
+cat > foo.txt
+;s
+ls
+cd ../
+ls
+git status
+git add fincalc
+git commit fincalc
+git add fincalc
+git push -f origin master

@@ -1,0 +1,3 @@
+[submodule "app"]
+    path = app
+    url = https://ExPixel@bitbucket.org/ExPixel/fincalc-app.git

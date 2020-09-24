@@ -1,0 +1,217 @@
+mixin check-icon
+    svg.feather.feather-check-circle(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        path(d='M22 11.07V12a10 10 0 1 1-5.93-9.14')
+        polyline(points='23 3 12 14 9 11')
+mixin target-icon
+    svg.feather.feather-target(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        circle(cx='12', cy='12', r='10')
+        circle(cx='12', cy='12', r='6')
+        circle(cx='12', cy='12', r='2')
+mixin piechart-icon
+    svg.feather.feather-pie-chart(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        path(d='M21.21 15.89A10 10 0 1 1 8 2.83')
+        path(d='M22 12A10 10 0 0 0 12 2v10z')
+mixin eye-icon
+    svg.feather.feather-eye(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        path(d='M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z')
+        circle(cx='12', cy='12', r='3')
+mixin briefcase-icon
+    svg.feather.feather-briefcase(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        rect(x='2', y='7', width='20', height='14', rx='2', ry='2')
+        path(d='M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16')
+mixin home-icon
+    svg.feather.feather-home(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        path(d='M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z')
+        polyline(points='9 22 9 12 15 12 15 22')
+mixin menu-icon
+    svg.feather.feather-menu(xmlns='http://www.w3.org/2000/svg', width='24', height='24', viewbox='0 0 24 24', fill='none', stroke='currentColor', stroke-width='2', stroke-linecap='round', stroke-linejoin='round')
+        line(x1='3', y1='12', x2='21', y2='12')
+        line(x1='3', y1='6', x2='21', y2='6')
+        line(x1='3', y1='18', x2='21', y2='18')
+
+
+doctype html
+html
+    head
+        meta(charsert="utf-8")
+        meta(name="viewport", content="width=device-width")
+        title FinCalc
+        link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Lato:300,400,700")
+        link(rel="stylesheet", href="/static/css/home/home.css")
+    body
+        header.home-header#header(data-sspy-after="@64"): .home-header-inner
+            div.home-header-logo-button
+                a.home-header-branding(href="/")
+                    img.home-header-branding-img.sspy-hide-block(src="/static/img/home/logo-white.png")
+                    img.home-header-branding-img.sspy-display-block(src="/static/img/home/logo-black.png")
+                .home-header-flex &nbsp;
+                button.header-menu-button#header-menu-button: +menu-icon
+            .home-header-flex.hide-on-super-small &nbsp;
+            nav.home-nav: ul.home-nav-list
+                li.home-nav-item(data-sspy-bet="#about,#features", data-sspy-class="selected")
+                    a.home-nav-link(href="#about") About
+                li.home-nav-item(data-sspy-bet="#features,#contact", data-sspy-class="selected")
+                    a.home-nav-link(href="#features") Features
+                //- li.home-nav-item(data-sspy-bet="#features,#pricing", data-sspy-class="selected")
+                //-     a.home-nav-link(href="#features") Features
+                //- li.home-nav-item(data-sspy-after="#pricing", data-sspy-class="selected")
+                //-     a.home-nav-link(href="#pricing") Pricing
+                li.home-nav-item(data-sspy-after="#contact", data-sspy-class="selected")
+                    a.home-nav-link(href="#contact") Contact
+                li.home-nav-item
+                    //- TODO: Give this some special styling with a border or something.
+                    a.home-nav-link(href="/dashboard") Dashboard
+        section.home-section-intro
+            h1.home-intro-header Attract More Real-Time Borrowers
+            h2.home-intro-subheader Through mobile, online, Facebook, and email channels.
+            .home-intro-quick-features
+                ul.home-intro-quick-features-list.left-side
+                    li.home-intro-quick-features-item
+                        h3.home-intro-quick-features-title
+                            span.display-mobile-inline
+                                +check-icon
+                                | &nbsp;
+                            | Social Media Integration &nbsp;
+                            span.hide-mobile-inline: +check-icon
+                        p.home-intro-quick-features-content
+                            //- #TODO Put the correct content here.
+                            //- | Mauris a sem vitae enim blandit dignissim sed vel sem. Donec tincidunt mauris eget dui dictum, a tristique ante elementum.
+                    li.home-intro-quick-features-item
+                        h3.home-intro-quick-features-title
+                            span.display-mobile-inline
+                                +check-icon
+                                | &nbsp;
+                            | Loan Officer Application &nbsp;
+                            span.hide-mobile-inline: +check-icon
+                        p.home-intro-quick-features-content
+                            //- #TODO Put the correct content here.
+                            //- | Mauris a sem vitae enim blandit dignissim sed vel sem. Donec tincidunt mauris eget dui dictum, a tristique ante elementum.
+                .home-intro-screenshot-container
+                    img.home-intro-screenshot(src="/static/img/home/calculator-app.png")
+                ul.home-intro-quick-features-list.right-side
+                    li.home-intro-quick-features-item
+                        h3.home-intro-quick-features-title
+                            span: +check-icon
+                            | &nbsp; Seamless Integration
+                        p.home-intro-quick-features-content
+                            //- #TODO Put the correct content here.
+                            //- | Mauris a sem vitae enim blandit dignissim sed vel sem. Donec tincidunt mauris eget dui dictum, a tristique ante elementum.
+                    li.home-intro-quick-features-item
+                        h3.home-intro-quick-features-title
+                            span: +check-icon
+                            | &nbsp; Lead Generation
+                        p.home-intro-quick-features-content
+                            //- #TODO Put the correct content here.
+                            //- | Mauris a sem vitae enim blandit dignissim sed vel sem. Donec tincidunt mauris eget dui dictum, a tristique ante elementum.
+        main.home-main
+            section.home-section.home-section-using.less-padding.shadow-box-top.center-text
+                div.home-section-anchor#about &nbsp;
+                div.using-this-list.siema#using-carousel
+                    .using-this-item
+                        img.using-this-image(width="256", src="/static/img/home/logos/mechanics.png")
+                    .using-this-item
+                        img.using-this-image(width="256", src="/static/img/home/logos/pct.png")
+                    .using-this-item
+                        img.using-this-image(width="256", src="/static/img/home/logos/strategis.png")
+            section.home-section.home-section-about.center-text
+                //- div.section-title About FinCalc
+                div.section-content
+                    //- | Some stuff about FinCalc
+                    | Companies are using FinCalc to drive leads to their businesses
+                    | by using FinCalc on their websites and social media pages.
+            section.home-section.home-section-features.center-text
+                div.home-section-anchor#features &nbsp;
+                div.section-title
+                    | We Make Loans Easy
+                    div.section-subtitle by sending you daily leads across your financial products.
+                div.section-content
+                    .feature-block-list
+                        .feature-block
+                            .feature-block-title
+                                span.feature-block-icon: +eye-icon
+                                |Transform Yourself
+                            .feature-block-content
+                                | We help financial institutions transform their mobile banking apps,
+                                | websites, and Facebook page from expenses into revenue generators.
+                        .feature-block
+                            .feature-block-title
+                                span.feature-block-icon: +piechart-icon
+                                | Understand Your Sales Funnel
+                            .feature-block-content
+                                | We can help you track your sales efforts, your purchases,
+                                | and conversion rates while highlighting bottlenecks in your funnel.
+                                | We also identify the number of people in each stage of your loan process,
+                                | from their initial visit to a completely application.
+                        .feature-block
+                            .feature-block-title
+                                span.feature-block-icon: +target-icon
+                                | Easy Experience
+                            .feature-block-content
+                                | Our clients use a one link-based process that helps customers
+                                | easily apply for a loan. This process makes it feel like your
+                                | shoppers never left your mobile app, website, or Facebook page.
+            section.home-section.home-section-appdemo
+                div.section-title.center-text App Demo
+                div.section-content
+                    div.device-wrapper(style="margin: 0 auto; width: 382px; max-width: 100%;")
+                        div.device(data-device="iPhone7", data-orientation="portrait", data-color="black")
+                            div.screen(style="pointer-events: initial;")
+                                iframe(src="/los/demo", style="width: 100%; height: 100%; border: none;")
+                        div.button
+            section.home-section.home-section-contact
+                div.home-section-anchor#contact &nbsp;
+                div.section-title(style="text-align: center;") Contact
+                div.section-content(style="max-width: 640px; margin: 0 auto;")
+                    form
+                        .form-group
+                            label.form-label First Name
+                            input.form-input(name="first_name", placeholder="First Name", type="text")
+                        .form-group
+                            label.form-label Last Name
+                            input.form-input(name="last_name", placeholder="First Name", type="text")
+                        .form-group
+                            label.form-label Email Address
+                            input.form-input(name="email", placeholder="Email", type="email")
+                        .form-group
+                            label.form-label Comments
+                            textarea.form-input(name="comments", placeholder="Comments...", style="min-height: 200px;")
+                        .form-group
+                            button.btn.btn-primary(type="submit", style="float: right;") Contact
+
+            //- section.home-section.home-section-pricing
+            //-     div.home-section-anchor#pricing &nbsp;
+            //-     div.section-title Pricing
+            //-     div.section-content(style="display: flex; flex-align: center;")
+            //-         .pricing-list
+            //-             .pricing-block
+            //-                 .pricing-inner
+            //-                     .pricing-icon: +home-icon
+            //-                     .pricing-title Standard
+            //-                     .pricing-features
+            //-                         .pricing-feature Calculator Application
+            //-                         .pricing-feature Calculator IFrames
+            //-                         .pricing-feature FaceBook Integration
+            //-                         .pricing-feature MailChimp Integration
+            //-                         .pricing-feature Constant Contact Integration
+            //-                         .pricing-feature.last ect.
+            //-                         .pricing-feature.invisible &nbsp;
+            //-                     .pricing-price $100
+            //-                         sub /mo
+            //-                 button.pricing-button Sign Up
+            //-             .pricing-block
+            //-                 .pricing-inner
+            //-                     .pricing-icon: +briefcase-icon
+            //-                     .pricing-title Enterprise
+            //-                     .pricing-features
+            //-                         .pricing-feature Calculator Application
+            //-                         .pricing-feature Calculator IFrames
+            //-                         .pricing-feature FaceBook Integration
+            //-                         .pricing-feature MailChimp Integration
+            //-                         .pricing-feature Constant Contact Integration
+            //-                         .pricing-feature Cobranded Loan Officer Application
+            //-                         .pricing-feature.last ect.
+            //-                     .pricing-price $200
+            //-                         sub /mo
+            //-                 button.pricing-button Sign Up
+        footer.home-footer
+        script(type="text/javascript", src="/static/js/home.bundle.js")

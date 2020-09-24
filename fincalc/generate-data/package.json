@@ -1,0 +1,17 @@
+{
+  "name": "generate-data",
+  "version": "1.0.0",
+  "description": "Generate data for FinCalc",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "faker": "^4.1.0",
+    "moment": "^2.19.2",
+    "pg": "^7.4.0",
+    "pg-promise": "^7.3.2",
+    "uuid": "^3.1.0"
+  }
+}

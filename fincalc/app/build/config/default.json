@@ -1,0 +1,44 @@
+{
+    "server": {
+        "host": "localhost",
+        "origin": "fincalc.local",
+        "logDBQueries": true,
+        "uploadDir": "uploads/"
+    },
+
+    "auth": {
+        "saltRounds": 12,
+        "jwtLifetimeSeconds": 900,
+        "jwtRefreshLifetimeSeconds": 604800,
+        "jwtAlgorithm": "HS256"
+    },
+
+    "app": {
+        "staticAssets": {
+            "root": "build/static",
+            "gzip": false
+        },
+        "templates": {
+            "root": "build/templates",
+            "maxCacheSize": 32
+        },
+        "cockpit": {
+            "accessToken": "ff13e0a92980c986593213dc3f9e2e"
+        },
+        "sendResponseTimeHeader": true
+    },
+
+    "db": {
+        "user": "fincalc",
+        "password": "fincalc",
+        "host": "postgres",
+        "port": 5432,
+        "name": "fincalc"
+    },
+
+    "redis": {
+        "host": "redis",
+        "port": 6379,
+        "prefix": "fincalc:"
+    }
+}

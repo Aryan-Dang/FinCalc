@@ -1,0 +1,27 @@
+{
+    "server": {
+        "port": 3000,
+        "origin": "fincalc.local",
+        "logDBQueries": true
+    },
+
+    "app": {
+        "staticAssets": {
+            "maxAge": 0
+        },
+        
+        "templates": {
+            "watch": true
+        }
+    },
+
+    "facebook": {
+        "appId": "346103555856393",
+        "appSecret": "cad4077c27020d819cd6ac747f18e77e"
+    },
+
+    "mailchimp": {
+        "clientId": "745622293557",
+        "clientSecret": "61dacbd4964acd10fd068b4ad697859a7ddd2a60f0a535b567"
+    }
+}

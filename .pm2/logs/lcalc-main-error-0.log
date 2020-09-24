@@ -3833,3 +3833,4 @@ WARNING: See https://github.com/lorenwest/node-config/wiki/Strict-Mode
     at g (/root/loancalc/dist/controllers/calculator.js:1:551)
     at <anonymous>
     at process._tickDomainCallback (internal/process/next_tick.js:228:7)
+4:16:04 PM - [31merror[39m: Error in controller. opaque=false, errid=bad-field, message=Expected the field 'output.total' to be a valid number.
